@@ -41,6 +41,8 @@ import oodles from "./company/oodles.png";
 import create from "./create.png";
 import xplore from "./xplore.png";
 import rummyGameImage from "./rummyGameImage.png";
+import stickmanGameImage from "./stickmanGameImage.png";
+import hillGameImage from "./hillGameImage.jpg";
 import holoprojector from "./holoprojector.png";
 
 export {
@@ -81,5 +83,7 @@ export {
   tooliqa,
   appsoleutlogo,
   vimap,
-  rummyGameImage
+  rummyGameImage,
+  stickmanGameImage,
+  hillGameImage
 };

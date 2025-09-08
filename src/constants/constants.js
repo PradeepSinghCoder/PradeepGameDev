@@ -31,6 +31,8 @@ import
   create,
   xplore,
   rummyGameImage,
+  stickmanGameImage,
+  hillGameImage,
 
 } from "../assets";
 
@@ -253,7 +255,7 @@ const projects = [
   {
     name: "Rummy Passion",
     description:
-      "Its a Real money based card game ",
+      "Its a Real Money based card game ",
     tags: [
       {
         name: "Unity",
@@ -270,6 +272,50 @@ const projects = [
     ],
     image: rummyGameImage,
     source_code_link: "https://apps.apple.com/in/app/play-rummy-passion-cash-games/id1440449810",
+
+  },
+  {
+    name: "Stickman Dismount & Annihilate",
+    description:
+      "Its a 2D physics based game",
+    tags: [
+      {
+        name: "Unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSharp",
+        color: "green-text-gradient",
+      },
+      {
+        name: "2D Physics",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: stickmanGameImage,
+    source_code_link: "https://apkpure.download/en/android/apk/stickman-dismount-game-apk/59028/",
+
+  },
+    {
+    name: "Hill Bomb Climb",
+    description:
+      "Its a 2D physics based game",
+    tags: [
+      {
+        name: "Unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSharp",
+        color: "green-text-gradient",
+      },
+      {
+        name: "2D Physics",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hillGameImage,
+    source_code_link: "https://www.amazon.com/Hill-Bomb-Climb-Car-Race/dp/B06X93RF44",
 
   },
 
