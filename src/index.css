@@ -113,6 +113,36 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/*---Pradeep Code-------*/
+.neon-icon-bgq {
+  background: radial-gradient(circle at center, #58d68d 0%, #0d1117 100%);
+  padding: 1px;
+  border-radius: 50%;
+  box-shadow: 0 0 12px #58d68d, 0 0 24px rgba(88, 214, 141, 0.5);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s ease;
+}
+.neon-icon-bg {
+  background: radial-gradient(circle at center, #58d68d 0%, #0d1117 100%);
+  box-shadow:
+    0 0 8px #58d68d,
+    0 0 16px rgba(88, 214, 141, 0.6),
+    inset 0 0 6px rgba(88, 214, 141, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.icon-container {
+  background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+  border: 1px solid #804dee;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(128, 77, 238, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+
+/*---Pradeep Code-------*/
 
 /* canvas- styles */
 .canvas-loader {

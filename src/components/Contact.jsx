@@ -81,28 +81,42 @@ const Contact = () => {
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+            <span className='text-white font-medium mb-4'>Name</span>
             <input
               type='text'
               name='name'
-              value={form.name}
+              value={"Pradeep Singh"}
               onChange={handleChange}
               placeholder="What's your good name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>Email</span>
             <input
               type='email'
               name='email'
-              value={form.email}
+              // value={form.email}
+              value={"pspsingh000@gmail.com"}
               onChange={handleChange}
               placeholder="What's your web address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
+
           <label className='flex flex-col'>
+            <span className='text-white font-medium mb-4'>Mobile No.</span>
+            <input
+              type='text'
+              name='number'
+              // value={form.email}
+              value={"+91 9045501377"}
+              // onChange={handleChange}
+              // placeholder="What's your web address?"
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+            />
+          </label>
+          {/* <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
               rows={7}
@@ -112,14 +126,40 @@ const Contact = () => {
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
-          </label>
+          </label> */}
 
-          <button
+          {/* <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
-          </button>
+            {loading ? "Loading..." : "Resume"}
+          </button> */}
+          {
+              <div className="flex justify-center mt-10">
+
+<button
+  type="button"
+  className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary flex items-center gap-2"
+  onClick={() => {
+    window.open("https://drive.google.com/uc?export=download&id=1JckRXY0W1vogS4mlkwTHy6G030flxRra", "_blank");
+  }}
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="w-5 h-5"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    strokeWidth={2}
+  >
+    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M12 12v6m0 0l-3-3m3 3l3-3M12 4v8" />
+  </svg>
+  {loading ? "Loading..." : "Resume"}
+</button>
+</div>
+
+          }
+
         </form>
       </motion.div>
 

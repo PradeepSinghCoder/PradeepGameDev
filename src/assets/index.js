@@ -8,10 +8,11 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import unitylogo from "./unity.png";
 import arcore from "./ar.png";
-import webgl_logo from "./webgl_logo.svg";
+import webgl_logo from "./webgl_logo.png";
 import vr_logo from "./vr_logo.png";
-import xr_logo from "./xr_logo.svg";
-import metaverse_logo from "./metaverse_logo.svg";
+import ar_logo from "./ar_logo.png";
+import xr_logo from "./xr_logo.png";
+import metaverse_logo from "./metaverse_logo.png";
 
 
 
@@ -24,9 +25,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import unity from "./tech/unity.png";
 import unreal from "./tech/unreal.svg";
-import cocos from"./tech/cocos.png";
-import cloud from"./tech/cloud.png";
-import csharp from"./tech/csharp.png";
+import cocos from "./tech/cocos.png";
+import cloud from "./tech/cloud.png";
+import csharp from "./tech/csharp.png";
 import python from "./tech/python.png";
 import reactjs from "./tech/reactjs.png";
 
@@ -40,10 +41,21 @@ import oodles from "./company/oodles.png";
 
 import create from "./create.png";
 import xplore from "./xplore.png";
+
 import rummyGameImage from "./rummyGameImage.png";
 import stickmanGameImage from "./stickmanGameImage.png";
-import hillGameImage from "./hillGameImage.jpg";
+import hillGameImage from "./hillGameImage.png";
+import cityCarRacing from "./cityCarRacing.png";
+import indianTrain from "./indianTrain.png";
+import bikeRacing from "./bikeRacing.png";
+import colorPaws from "./colorPaws.png";
+
 import holoprojector from "./holoprojector.png";
+
+import websiteIcon from "./websiteIcon.png";
+import playstoreIcon from "./playstoreIcon.png";
+import appstoreIcon from "./appstoreIcon.png";
+import youtubeIcon from "./youtubeIcon.png";
 
 export {
   logo,
@@ -58,6 +70,7 @@ export {
   arcore,
   webgl_logo,
   vr_logo,
+  ar_logo,
   xr_logo,
   metaverse_logo,
 
@@ -85,5 +98,13 @@ export {
   vimap,
   rummyGameImage,
   stickmanGameImage,
-  hillGameImage
+  hillGameImage,
+  cityCarRacing,
+  indianTrain,
+  bikeRacing,
+  colorPaws,
+  websiteIcon,
+  playstoreIcon,
+  appstoreIcon,
+  youtubeIcon,
 };
