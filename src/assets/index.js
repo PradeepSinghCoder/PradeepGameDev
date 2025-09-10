@@ -29,7 +29,19 @@ import cocos from "./tech/cocos.png";
 import cloud from "./tech/cloud.png";
 import csharp from "./tech/csharp.png";
 import python from "./tech/python.png";
-import reactjs from "./tech/reactjs.png";
+import vrSkill from "./tech/vrSkill.png";
+import webglSkill from "./tech/webglSkill.png";
+import arSkill from "./tech/arSkill.png";
+import socketSkill from "./tech/socketSkill.png";
+import photonSkill from "./tech/photonSkill.png";
+
+import gitlab_logo from "./tech/gitlab_logo.svg";
+import c_logo from "./tech/c_logo.svg";
+import js_logo from "./tech/js_logo.svg";
+import java_logo from "./tech/java_logo.png";
+import html_logo from "./tech/html_logo.png";
+import jira_logo from "./tech/jira_logo.svg";
+
 
 import passiongaming from "./company/passiongaming.jpg";
 import t7gaming from "./company/t7gaming.png";
@@ -77,7 +89,7 @@ export {
   figma,
   git,
   nodejs,
-  reactjs,
+  vrSkill,
   typescript,
   threejs,
   unity,
@@ -86,6 +98,12 @@ export {
   cloud,
   cocos,
   csharp,
+  gitlab_logo,
+  c_logo,
+  js_logo,
+  java_logo,
+  html_logo,
+  jira_logo,
 
   create,
   xplore,
@@ -107,4 +125,8 @@ export {
   playstoreIcon,
   appstoreIcon,
   youtubeIcon,
+  webglSkill,
+  arSkill,
+  socketSkill,
+  photonSkill,
 };

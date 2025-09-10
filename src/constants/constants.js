@@ -13,6 +13,7 @@ import {
   metaverse_logo,
   unreal,
   csharp,
+  vrSkill,
   threejs,
   cocos,
   cloud,
@@ -42,6 +43,18 @@ import {
   indianTrain,
   bikeRacing,
   colorPaws,
+  gitlab_logo,
+  c_logo,
+  js_logo,
+  java_logo,
+  html_logo,
+  jira_logo,
+  webglSkill,
+  arSkill,
+  socketSkill,
+  photonSkill,
+
+
 
 } from "../assets";
 
@@ -62,10 +75,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  {
-    id: "resume",
-    title: "Resume",
-  },
+  //{
+    //id: "resume",
+   // title: "Resume",
+  //},
 ];
 
 const services = [
@@ -94,53 +107,72 @@ const services = [
     icon: webgl_logo,
   }
 ];
+export const technologies = [
+  { name: "Unity",
+  icon: unity,
+  color: "#00FFAB" 
+  },
+  { name: "AR",    
+  icon: arSkill, 
+  color: "#FF6A00" 
+  },
+  { name: "VR",    
+  icon: vrSkill, 
+  color: "#005AFF" 
+  },
+  { name: "WebGL", 
+  icon: webglSkill, 
+  color: "#FFD600" 
+  },
+    { name: "Socket.IO",    
+  icon: socketSkill, 
+  color: "#005AFF" 
+  },
+  { name: "Photon", 
+  icon: photonSkill, 
+  color: "#FFD600" 
+  },
+    { name: "Git",   
+  icon: git,     
+  color: "#E84C3D" 
+  },
+  { name: "Jira",  
+  icon: jira_logo,   
+  color: "#E34F26" 
+  },
+  { name: "Figma", 
+  icon: figma,   
+  color: "#A259FF" 
+  },
+    { name: "C#",    
+  icon: csharp, 
+  color: "#9146FF" 
+  },
+  { name: "C",    
+  icon: c_logo, 
+  color: "#9146FF" 
+  },
+  { name: "Python",
+  icon: python,  
+  color: "#306998" 
+  },
+  { name: "JAVA",    
+  icon: java_logo,  
+  color: "#F0DB4F" 
+  },
 
-const technologies = [
-  {
-    name: "Unity",
-    icon: unity,
+  { name: "HTML",  
+  icon: html_logo,   
+  color: "#E34F26" 
   },
-  {
-    name: "C#",
-    icon: csharp,
+   { name: "Java Script",  
+  icon: js_logo,   
+  color: "#E34F26" 
   },
-  {
-    name: "AR",
-    icon: arcore,
-  },
-  {
-    name: "VR",
-    icon: vr_logo,
-  },
-  {
-    name: "XR",
-    icon: xr_logo,
-  },
-  {
-    name: "WebGL",
-    icon: webgl_logo,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "JS",
-    icon: nodejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "html",
-    icon: cloud,
-  },
+   
 ];
+
+
 
 const experiences = [
   {
@@ -477,4 +509,4 @@ tags: [
 
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, experiences, testimonials, projects };

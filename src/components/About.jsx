@@ -42,7 +42,7 @@ const About = () => {
     <motion.p variants={fadeIn("","",0.1,1)}
     className='mt-4 text-secondary text-[17px]
     max-w-3xl leading-[30px]'>
-      I'm a dynamic Senior Unity Developer with over 8 years of hands-on experience building high-performance 2D/3D games, AR/VR/XR/Metaverse applications, and WebGL modules. Expert in C# scripting, real-time computational geometry, and shader graph optimization. Proven track record delivering end-to-end solutions—from concept and prototyping to launch—while collaborating cross functionally and mentoring teams. Passionate about pushing interactive experiences forward, I aim to step into a lead architect role where I can drive innovation in immersive gaming and expand my expertise in multiplayer and AI-driven gameplay.
+      I'm a dynamic Senior Unity Developer with over 8 years of hands-on experience building high-performance 2D/3D games, AR/VR/XR/Metaverse applications, and WebGL modules. Expert in C# scripting, real-time computational geometry, and shader graph optimization. Proven track record delivering end-to-end solutions-from concept and prototyping to launch-while collaborating cross functionally and mentoring teams. Passionate about pushing interactive experiences forward, I aim to step into a lead architect role where I can drive innovation in immersive gaming and expand my expertise in multiplayer and AI-driven gameplay.
     </motion.p>
 
     <div className = 'mt-20 flex flex-wrap gap-10'>

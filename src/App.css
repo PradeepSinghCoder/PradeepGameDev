@@ -1,0 +1,51 @@
+.tech-tile {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(145deg, #1a1a2e, #0f0f1c);
+  border-radius: 50px;
+  overflow: hidden;
+  transition: transform 0.01s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-tile:hover {
+  transform: scale(1.08);
+}
+
+.tech-glow {
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--neon-color);
+  border-radius: 16px;
+  box-shadow:
+    0 0 12px var(--neon-color),
+    0 0 24px var(--neon-color),
+    0 0 36px rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+  transition: box-shadow 0.1s ease;
+}
+
+.tech-icon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  z-index: 10;
+}
+
+.tech-label {
+  position: absolute;
+  bottom: 1px;
+  font-size: 10px;
+  color: var(--neon-color);
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.01s ease, transform 0.01s ease;
+}
+
+.tech-tile:hover .tech-label {
+  opacity: 1;
+  transform: translateY(0);
+}
