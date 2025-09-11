@@ -43,6 +43,7 @@ import {
   indianTrain,
   bikeRacing,
   colorPaws,
+  carShop,
   gitlab_logo,
   c_logo,
   js_logo,
@@ -502,6 +503,33 @@ tags: [
       {
         source_code_link: "https://www.amazon.co.uk/ViMAP-Services-Pvt-Ltd-Color/dp/B01M4QT753/ref=cm_cr_arp_d_product_top?ie=UTF8",
         icon_img: playstoreIcon
+      },
+    ]
+
+  },
+  {
+    name: "Car Shop",
+    description:
+"Built in Unity with C#, this augmented reality app allows users to explore cars in 3D, customize colors, and view internal configurations, delivering an immersive and interactive experience",
+tags: [
+      {
+        name: "Unity-C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AR",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AR SDK",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carShop,
+    source_code_tags: [
+      {
+        source_code_link: "https://www.youtube.com/watch?v=wkZ12DdouoM",
+        icon_img: youtubeIcon
       },
     ]
 

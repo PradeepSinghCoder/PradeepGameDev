@@ -61,6 +61,7 @@ import cityCarRacing from "./cityCarRacing.png";
 import indianTrain from "./indianTrain.png";
 import bikeRacing from "./bikeRacing.png";
 import colorPaws from "./colorPaws.png";
+import carShop from "./carShop.jpg";
 
 import holoprojector from "./holoprojector.png";
 
@@ -121,6 +122,7 @@ export {
   indianTrain,
   bikeRacing,
   colorPaws,
+  carShop,
   websiteIcon,
   playstoreIcon,
   appstoreIcon,
