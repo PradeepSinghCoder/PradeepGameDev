@@ -1,36 +1,23 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   unitylogo,
   unity,
   arcore,
   webgl_logo,
   vr_logo,
-   ar_logo,
+  ar_logo,
   xr_logo,
   metaverse_logo,
-  unreal,
   csharp,
   vrSkill,
-  threejs,
-  cocos,
-  cloud,
-  typescript,
   python,
-  nodejs,
   git,
   figma,
   passiongaming,
-  tooliqa,
   t7gaming,
   oodles,
   appsoleutlogo,
   vimap,
-  holoprojector,
   create,
-  xplore,
   rummyGameImage,
   stickmanGameImage,
   hillGameImage,
@@ -373,7 +360,7 @@ tags: [
       },
     ]
   },
-    {
+    /*{
     name: "Car Assemble Training",
     description:
 "Developed in Unity with immersive VR mechanics, this project trains users on step-by-step car assembly, enhancing hands-on learning through simulation.",
@@ -398,7 +385,7 @@ tags: [
         icon_img: youtubeIcon
       },
     ]
-  },
+  },*/
     {
     name: "Kitchen Interior",
     description:
