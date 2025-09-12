@@ -3,10 +3,10 @@
     "",
     "\\.github",
     "\\src",
-    "\\src\\constants",
-    "\\src\\hoc",
-    "\\src\\utils"
+    "\\src\\components",
+    "\\src\\components\\canvas",
+    "\\src\\constants"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\index.css",
   "PreviewInSolutionExplorer": false
 }

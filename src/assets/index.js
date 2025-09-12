@@ -63,6 +63,12 @@ import bikeRacing from "./bikeRacing.png";
 import colorPaws from "./colorPaws.png";
 import carShop from "./carShop.jpg";
 
+import arPlc from "./arPlc.jpg";
+import vrCarAssemble from "./vrCarAssemble.jpg";
+import vrCarDigno from "./vrCarDigno.jpg";
+import vrChef from "./vrChef.jpg";
+import vrKitchen from "./vrKitchen.jpg";
+
 import holoprojector from "./holoprojector.png";
 
 import websiteIcon from "./websiteIcon.png";
@@ -123,6 +129,11 @@ export {
   bikeRacing,
   colorPaws,
   carShop,
+  arPlc,
+  vrCarAssemble,
+  vrCarDigno,
+  vrChef,
+  vrKitchen,
   websiteIcon,
   playstoreIcon,
   appstoreIcon,

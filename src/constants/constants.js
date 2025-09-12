@@ -44,6 +44,11 @@ import {
   bikeRacing,
   colorPaws,
   carShop,
+  arPlc,
+  vrCarAssemble,
+  vrCarDigno,
+  vrChef,
+  vrKitchen,
   gitlab_logo,
   c_logo,
   js_logo,
@@ -108,7 +113,7 @@ const services = [
     icon: webgl_logo,
   }
 ];
-export const technologies = [
+export const technologiesq = [
   { name: "Unity",
   icon: unity,
   color: "#00FFAB" 
@@ -173,6 +178,23 @@ export const technologies = [
    
 ];
 
+export const technologies = [
+  { name: "Unity",       icon: unity,        color: "#00FFAB" },     // Neon green
+  { name: "AR",          icon: arSkill,      color: "#FF6A00" },     // Bright orange
+  { name: "VR",          icon: vrSkill,      color: "#00BFFF" },     // Deep sky blue
+  { name: "WebGL",       icon: webglSkill,   color: "#FFD700" },     // Gold
+  { name: "Socket.IO",   icon: socketSkill,  color: "#FF00FF" },     // Magenta
+  { name: "Photon",      icon: photonSkill,  color: "#00FFFF" },     // Cyan
+  { name: "Git",         icon: git,          color: "#FF4500" },     // Orange red
+  { name: "Jira",        icon: jira_logo,    color: "#7FFF00" },     // Chartreuse
+  { name: "Figma",       icon: figma,        color: "#FF1493" },     // Deep pink
+  { name: "C#",          icon: csharp,       color: "#8A2BE2" },     // Blue violet
+  { name: "C",           icon: c_logo,       color: "#00CED1" },     // Dark turquoise
+  { name: "Python",      icon: python,       color: "#FFA500" },     // Orange
+  { name: "JAVA",        icon: java_logo,    color: "#ADFF2F" },     // Green yellow
+  { name: "HTML",        icon: html_logo,    color: "#FF6347" },     // Tomato
+  { name: "Java Script", icon: js_logo,      color: "#1E90FF" }      // Dodger blue
+];
 
 
 const experiences = [
@@ -255,32 +277,180 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
+    image: "https://ff/gg//hh.png",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
+    image: "https://ff/gg//hh.png",
   },
 ];
 
 const projects = [
+  
+{
+    name: "Car Shop",
+    description:
+        "Built in Unity with C#, this augmented reality app allows users to explore cars in 3D, customize colors, and view internal configurations, delivering an immersive and interactive experience",
+    tags: [
+      {
+        name: "Unity-C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AR",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AR SDK",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carShop,
+    source_code_tags: [
+      {
+        source_code_link: "https://www.youtube.com/watch?v=wkZ12DdouoM",
+        icon_img: youtubeIcon
+      },
+    ]
+  },
+    {
+        name: "PLC Training",
+        description:
+        "An AR-based Unity training application built with C#, visualizing PLC concepts and electrical setups in augmented reality for interactive industrial learning.",
+        tags: [
+        {
+        name: "Unity-C#",
+        color: "blue-text-gradient",
+        },
+        {
+        name: "AR SDK",
+        color: "green-text-gradient",
+         },
+        {
+        name: "Training",
+        color: "pink-text-gradient",
+        },
+        ],
+        image: arPlc,
+        source_code_tags: [
+        {
+        source_code_link: "https://youtu.be/UXSV_NRjg-s",
+        icon_img: youtubeIcon
+        },
+        ]
+    },
+
+    {
+    name: "Car Diagnostic Training",
+    description:
+"A Unity VR training simulation built with C#, enabling users to practice car fault diagnosis interactively in a realistic 3D workshop environment.",
+tags: [
+      {
+        name: "Unity-C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "VR",
+        color: "green-text-gradient",
+      },
+      {
+        name: "VR SDK's",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vrCarDigno,
+    source_code_tags: [
+      {
+        source_code_link: "https://youtu.be/3gkh6rmnvUk",
+        icon_img: youtubeIcon
+      },
+    ]
+  },
+    {
+    name: "Car Assemble Training",
+    description:
+"Developed in Unity with immersive VR mechanics, this project trains users on step-by-step car assembly, enhancing hands-on learning through simulation.",
+tags: [
+      {
+        name: "Unity-C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "VR",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Shaders",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vrCarAssemble,
+    source_code_tags: [
+      {
+        source_code_link: "https://youtube.com/shorts/dUEitsqARDA",
+        icon_img: youtubeIcon
+      },
+    ]
+  },
+    {
+    name: "Kitchen Interior",
+    description:
+        "A Unity-powered VR walkthrough showcasing kitchen interior design with interactive elements, allowing users to explore layouts and visualize realistic spaces.",
+    tags: [
+      {
+        name: "Unity-C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "VR",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Shaders",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vrKitchen,
+    source_code_tags: [
+      {
+        source_code_link: "https://youtu.be/EznUcciq0mM",
+        icon_img: youtubeIcon
+      },
+    ]
+  },
+    {
+    name: "Chef Soup Training",
+    description:
+"A gamified Unity VR training app that guides users through cooking processes, combining animations and interactivity to deliver engaging culinary learning.",
+tags: [
+      {
+        name: "Unity-C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "VR",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Food-Industry",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vrChef,
+    source_code_tags: [
+      {
+        source_code_link: "https://youtu.be/0Mu_FfgpEFQ",
+        icon_img: youtubeIcon
+      },
+    ]
+  },
   {
     name: "Twinn Create",
     description: "The end to end solution for Architects, from Floor Plan Creation to photorealistic rendering stage in real-time 3D",
@@ -507,34 +677,9 @@ tags: [
     ]
 
   },
-  {
-    name: "Car Shop",
-    description:
-"Built in Unity with C#, this augmented reality app allows users to explore cars in 3D, customize colors, and view internal configurations, delivering an immersive and interactive experience",
-tags: [
-      {
-        name: "Unity-C#",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "AR",
-        color: "green-text-gradient",
-      },
-      {
-        name: "AR SDK",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carShop,
-    source_code_tags: [
-      {
-        source_code_link: "https://www.youtube.com/watch?v=wkZ12DdouoM",
-        icon_img: youtubeIcon
-      },
-    ]
+  
 
-  },
 
 ];
 
-export { services, experiences, testimonials, projects };
+export { services, experiences, projects };
